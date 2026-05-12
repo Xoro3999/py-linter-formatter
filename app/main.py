@@ -23,4 +23,3 @@ def format_linter_report(linter_report: dict) -> list:
     ]
 
     return sorted(formatted_files, key=lambda x: x["path"])
-    
